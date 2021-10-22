@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d867626e2f13301091f2fcecf699b6f4</sp_column>
+        <sp_widget display_value="Single Icon Menu">5edf4c21cb21020000f8d856634c9cba</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-22 19:32:25</sys_created_on>
+        <sys_id>9177626e2f13301091f2fcecf699b6d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>yes</sys_name>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_update_name>sp_instance_menu_9177626e2f13301091f2fcecf699b6d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-22 19:32:34</sys_updated_on>
+        <title>yes</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=9177626e2f13301091f2fcecf699b6d0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</application>
+        <file_path/>
+        <instance_id>3a11daf4db94770052cec597059619f8</instance_id>
+        <instance_name>dev75637</instance_name>
+        <name>sp_instance_menu_9177626e2f13301091f2fcecf699b6d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">d867626e2f13301091f2fcecf699b6f4</sp_column><sp_widget display_value="Single Icon Menu">5edf4c21cb21020000f8d856634c9cba</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-22 19:32:25</sys_created_on><sys_id>9177626e2f13301091f2fcecf699b6d0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>yes</sys_name><sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package><sys_policy/><sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope><sys_update_name>sp_instance_menu_9177626e2f13301091f2fcecf699b6d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-22 19:32:34</sys_updated_on><title>yes</title><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=9177626e2f13301091f2fcecf699b6d0"/></record_update>]]></payload>
+        <payload_hash>1086363199</payload_hash>
+        <record_name>yes</record_name>
+        <reverted_from/>
+        <source>79ed5a662f13301091f2fcecf699b6e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-22 19:32:34</sys_created_on>
+        <sys_id>e777ee2e2f13301091f2fcecf699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ca97d9e380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-22 19:32:34</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>2377ee2e3d1330108d49a46a31c761fc</update_guid>
+        <update_guid_history>2377ee2e3d1330108d49a46a31c761fc:1086363199,d177626e221330102d43205e76e26ad2:-1713404114</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="yes">c9876a6e2f13301091f2fcecf699b608</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-22 19:32:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>0f51a7f033c04744b608677618d42b90</sys_id>
+        <sys_metadata>9177626e2f13301091f2fcecf699b6d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>yes</sys_name>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_scope_delete display_value="">08e19ad05a924b9caba0d7398d3eca90</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_9177626e2f13301091f2fcecf699b6d0</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_9177626e2f13301091f2fcecf699b6d0">e777ee2e2f13301091f2fcecf699b6fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-22 19:32:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
