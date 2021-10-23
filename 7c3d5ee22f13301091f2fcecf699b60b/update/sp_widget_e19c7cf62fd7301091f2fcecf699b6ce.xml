@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $location) {
+  /* widget controller */
+	var c = this;
+	var url = "https://dev75637.service-now.com/assessment_take2.do?sysparm_assessable_type=fbe9f4362fd7301091f2fcecf699b6ff";
+
+	
+	$scope.iframeUrl = url;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.frame-style {&#13;
+	height: 100%;&#13;
+  width: 100%;&#13;
+  border: 0px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function(scope, elem, attrs) {
+	var panelHeight;
+
+	$(document).ready(function() {
+		resizeWindow();
+	});
+
+	$(window).resize(function() {
+		resizeWindow();
+	});
+
+	function resizeWindow() {
+		var panelHeight = ($(document).height()- 60) + 'px';
+		$(elem).find('#pwd_reset_container').css('height', panelHeight);
+	}
+}]]></link>
+        <name>Self Assessment</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-23 06:23:58</sys_created_on>
+        <sys_id>e19c7cf62fd7301091f2fcecf699b6ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Self Assessment</sys_name>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_update_name>sp_widget_e19c7cf62fd7301091f2fcecf699b6ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-23 06:24:55</sys_updated_on>
+        <template><![CDATA[  <iframe id="pwd_reset_container" class="frame-style" ng-src="{{iframeUrl}}" />]]></template>
+    </sp_widget>
+</record_update>

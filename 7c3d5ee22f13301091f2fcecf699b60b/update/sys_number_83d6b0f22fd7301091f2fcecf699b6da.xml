@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_94093_return_to_return_to_office_request">x_94093_return_to_return_to_office_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>RT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-23 05:59:12</sys_created_on>
+        <sys_id>83d6b0f22fd7301091f2fcecf699b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RT</sys_name>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_update_name>sys_number_83d6b0f22fd7301091f2fcecf699b6da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-23 05:59:12</sys_updated_on>
+    </sys_number>
+</record_update>

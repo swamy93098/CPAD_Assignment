@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page_route_map">
+    <sp_page_route_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>10</order>
+        <portals>ca042eaa2f13301091f2fcecf699b6a3</portals>
+        <route_from_page display_value="ticket">84af292247132100ba13a5554ee4909e</route_from_page>
+        <route_to_page display_value="standard_ticket">c729488287310010e0ef0cf888cb0ba8</route_to_page>
+        <short_description/>
+        <sys_class_name>sp_page_route_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-23 06:05:08</sys_created_on>
+        <sys_id>283838362fd7301091f2fcecf699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>84af292247132100ba13a5554ee4909e</sys_name>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_update_name>sp_page_route_map_283838362fd7301091f2fcecf699b62a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-23 06:05:08</sys_updated_on>
+    </sp_page_route_map>
+</record_update>

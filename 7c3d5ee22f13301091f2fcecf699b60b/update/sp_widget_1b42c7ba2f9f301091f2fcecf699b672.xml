@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+jsFunction=function(val)
+{
+	if(val == 'Building 1')
+		{
+			c.data.show1 = true;
+			c.data.show2 = false;
+			c.data.show3 = false;
+			c.server.update()
+		}
+	if(val == 'Building 2')
+		{
+			c.data.show2 = true;
+				c.data.show1 = false;
+				c.data.show3 = false;
+			c.server.update();
+		}
+	if(val == 'Building 3')
+		{
+			c.data.show3 = true;
+			c.data.show1 = false;
+			c.data.show2 = false;
+			c.server.update();			
+		
+
+		}
+	if(val == 'Please selecta a value')
+		{
+			c.data.show3 = false;
+			c.data.show1 = false;
+			c.data.show2 = false;
+			c.server.update();			
+		
+
+		}
+}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  	//inicialization of select picker
+$('.selectpicker').selectpicker();
+
+//on change function i need to control selected value
+$('select.selectpicker').on('change', function(){
+   var selected = $('.selectpicker option:selected').val();
+   alert(selected);
+});
+}]]></link>
+        <name>Workplace arrangement</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-23 16:09:53</sys_created_on>
+        <sys_id>1b42c7ba2f9f301091f2fcecf699b672</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Workplace arrangement</sys_name>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_update_name>sp_widget_1b42c7ba2f9f301091f2fcecf699b672</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-23 16:38:40</sys_updated_on>
+        <template><![CDATA[<div>
+  <label for="sel1">Select a Building:</label>
+<select class="selectpicker form-control" data-width="auto" onchange="jsFunction(this.value);" id="sel1">
+  <option>Please selecta a value</option>
+  <option>Building 1</option>
+  <option>Building 2</option>
+  <option>Building 3</option>
+</select>    
+</div>
+<div>
+  <img src="building1.jpg" ng-if="data.show1" class="img-fluid"/>
+  <img src="building2.png" ng-if="data.show2" class="img-fluid"/>
+  <img src="building3.png" ng-if="data.show3" class="img-fluid"/>
+</div>
+<div ng-if="data.show1">
+ <strong>Below users reserved to Building 1 so far:</strong>
+  <ul>
+    <li>Shyam A</li>
+    <li>Lakshmi B</li>
+    <li>Anil K</li>
+  </ul>
+</div>
+<div ng-if="data.show2">
+ <strong>Below users reserved to Building 1 so far:</strong>
+  <ul>
+    <li>Venu G</li>
+    <li>kanchana C</li>
+    
+  </ul>
+</div>
+<div ng-if="data.show3">
+ <strong>Below users reserved to Building 1 so far:</strong>
+  <ul>
+    <li>George B</li>
+    <li>Sathya C</li>
+     <li>Karthik C</li>
+     <li>Santosh G</li>
+  </ul>
+</div>]]></template>
+    </sp_widget>
+</record_update>

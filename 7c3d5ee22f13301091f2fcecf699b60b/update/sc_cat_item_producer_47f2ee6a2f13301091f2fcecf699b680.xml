@@ -13,14 +13,15 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p>It may take up to 2 business days to process your request.</p>
+<p>We request you to go through the Self-assessment to speed up the process</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>false</ignore_price>
+        <ignore_price>true</ignore_price>
         <image/>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
@@ -60,7 +61,13 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <script/>
+        <script><![CDATA[current.short_description = 'Return to Office Request for '+producer.requested_for.getDisplayValue();
+current.description = 'Requested for: '+producer.getDisplayValue();
+current.description += '\nWhen do you want to come to Office?: '+producer.getDisplayValue();
+current.description += '\nFrequency: '+producer.getDisplayValue();
+current.description += '\nHave you submitted your self-assessment?: '+producer.getDisplayValue();
+current.description += '\nBusiness justification: '+producer.getDisplayValue();
+]]></script>
         <short_description>Return to Office Request</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -69,14 +76,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-22 19:16:14</sys_created_on>
         <sys_id>47f2ee6a2f13301091f2fcecf699b680</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Return to Office Request</sys_name>
         <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
         <sys_update_name>sc_cat_item_producer_47f2ee6a2f13301091f2fcecf699b680</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-22 19:16:28</sys_updated_on>
+        <sys_updated_on>2021-10-23 17:36:39</sys_updated_on>
         <table_name>x_94093_return_to_return_to_office_request</table_name>
         <template/>
         <template_manager_roles/>

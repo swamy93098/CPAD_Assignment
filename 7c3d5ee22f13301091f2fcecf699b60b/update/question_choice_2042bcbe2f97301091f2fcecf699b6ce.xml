@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Frequency">7bf1b0fe2f97301091f2fcecf699b6f4</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-23 05:39:16</sys_created_on>
+        <sys_id>2042bcbe2f97301091f2fcecf699b6ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Weekly Twice</sys_name>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_update_name>question_choice_2042bcbe2f97301091f2fcecf699b6ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-23 05:40:05</sys_updated_on>
+        <text>Weekly Twice</text>
+        <value>weekly_twice</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=2042bcbe2f97301091f2fcecf699b6ce"/>
+</record_update>
