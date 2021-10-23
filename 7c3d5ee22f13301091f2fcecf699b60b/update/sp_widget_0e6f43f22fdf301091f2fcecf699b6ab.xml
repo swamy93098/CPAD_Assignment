@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $location) {
+  /* widget controller */
+	var c = this;
+	var url = "https://www.citizensinformation.ie/en/employment/return_to_work/returning_to_work_and_covid19.html";
+
+	
+	$scope.iframeUrl = url;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.frame-style {&#13;
+	height: 100%;&#13;
+  width: 100%;&#13;
+  border: 0px;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function(scope, elem, attrs) {
+	var panelHeight;
+
+	$(document).ready(function() {
+		resizeWindow();
+	});
+
+	$(window).resize(function() {
+		resizeWindow();
+	});
+
+	function resizeWindow() {
+		var panelHeight = ($(document).height()- 60) + 'px';
+		$(elem).find('#pwd_reset_container').css('height', panelHeight);
+	}
+}]]></link>
+        <name>Covid 19 Info</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-23 17:05:26</sys_created_on>
+        <sys_id>0e6f43f22fdf301091f2fcecf699b6ab</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Covid 19 Info</sys_name>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_update_name>sp_widget_0e6f43f22fdf301091f2fcecf699b6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-23 17:12:03</sys_updated_on>
+        <template><![CDATA[<div class="content" role="main">
+                
+                
+<!-- Bread crumb -->
+
+
+<!--end of breadcrumbs-->
+                
+
+                <!-- start of Document -->
+                <a id="startcontent"></a>
+
+                
+                
+                <h1>Returning to working safely</h1>
+                
+                
+
+
+                
+    <ul class="anchorlinks"><li><a href="#l0b797">Introduction</a></li><li><a href="#lb74e9">Return to the workplace </a></li><li><a href="#l17a59">Planning for return to work</a></li><li><a href="#l01e6d">Getting to and from work</a></li><li><a href="#l3b81c">Staying safe at work</a></li><li><a href="#l9eb00">Where can I make a complaint?</a></li><li><a href="#l23f7d">Further information</a></li></ul>
+    <div class="topic">
+
+<div class="topic base_introduction">
+<h2 class="topic base_introduction_title" id="l0b797">Introduction</h2>
+
+<p>Workers still working from home can return to the workplace on a phased and
+staggered basis. <strong>Attendance should be for specific business needs
+only</strong>. This restriction remains in place, even after 22 October 2021.
+</p>
+
+<h3>Guidance for employers on the return to work</h3>
+
+<p>This page summarises the work safely protocol published by the HSA, the HSE,
+the Department of Health and the Department of Enterprise, Trade and
+Employment. </p>
+
+<p>Further guidance and an updated work safely protocol were issued in
+September 2021 ahead of the Government advice on the phased return to
+workplaces.</p>
+
+<p>Employers must review their existing advice and guidance to make sure it is
+in line with the updated guidance.</p>
+
+<p>The protocol and related guidance:</p>
+<ul>
+  <li>Describes the steps that employers and employees should take before a
+    workplace reopens to make sure they can return to work safely</li>
+  <li>Sets out the minimum measures needed in every workplace to manage and
+    prevent the spread of infection.</li>
+</ul>
+
+<p>You can get more detailed information in the revised <a href="https://enterprise.gov.ie/en/Publications/Publication-files/Work-Safely-Protocol.pdf">Work
+Safely Protocol (pdf)</a> and the <a href="https://enterprise.gov.ie/en/Publications/Publication-files/Returning-Safely-to-the-Workplace.pdf">Guidance
+Note on Returning Safely to the Workplace (pdf)</a>.</p>
+
+<p>The protocol gives information on the selection of hand sanitisers, the
+wearing of face coverings, working from home, the use of antigen testing,
+vaccinations and ventilation of workplaces. There may be additional safeguards
+in different workplaces.</p>
+
+<p>The additional guidance gives information on the use of staggered
+arrangements and other considerations around attendance levels.</p>
+
+<p>The <a href="https://www.hsa.ie/eng/topics/covid-19_coronavirus_information_and_resources/covid-19_business_supports/business_supports/work_safely_templates_checklists_and_posters/">Health
+Safety Authority (HSA) website</a> has updated checklists and templates on
+ventilation, rapid antigen testing and returning to the office.</p>
+
+<p>The HSA will carry out workplace inspections and provide guidance for
+employers. If their advice is not implemented, the HSA can shut down the
+workplace.</p>
+
+<p>The Workplace Relations Commission (WRC) will also carry out inspections and
+provide guidance to employers.</p>
+</div>
+
+<div class="topic base_introduction">
+<h2 class="topic base_introduction_title" id="lb74e9">Return to the workplace </h2>
+
+<p>Workers still working from home can return to the workplace on a phased and
+cautious basis.</p>
+
+<p>The return to workplace must be managed in a cautious and careful way.
+<strong>Attendance should be for specific business needs only</strong>.</p>
+
+<p>The updated <a href="https://enterprise.gov.ie/en/Publications/Publication-files/Returning-Safely-to-the-Workplace.pdf">Guidance
+Note on Returning Safely to the Workplace (pdf)</a> recommends that employers
+consider:</p>
+<ul>
+  <li>That attendance is for specific business requirements </li>
+  <li>Appropriate attendance levels, keeping in mind the work safely protocol
+    and related checklists</li>
+  <li>Using staggered arrangements, for example flexible working hours and
+    part-time attendance</li>
+</ul>
+</div>
+
+<div class="topic base_introduction">
+<h3>Return to the workplace after 22 October</h3>
+
+<p>It had been planned that the requirement to work from home would be removed
+after 22 October 2021. However, on 19 October 2021, it was announced that
+workers should <a href="https://www.gov.ie/en/press-release/58d28-statement-on-covid-19-public-health-measures-19-october-2021/">only
+attend the workplace for specific business requirements</a>. </p>
+</div>
+
+<div class="topic base_rules">
+<h2 class="topic base_rules_title" id="l17a59">Planning for return to work</h2>
+
+<p>All employers must prepare and put systems and controls in place before they
+reopen their business and workplaces.</p>
+
+<p>Your employer must:</p>
+<ul>
+  <li>Appoint at least <strong>one lead worker representative</strong> to make
+    sure safety measures are in place and being followed. A short online course
+    on the role of lead worker representative can be found on the <a href="https://www.hsa.ie/LWR/#/">HSA website</a>.</li>
+  <li><strong>Update business and safety plans</strong>, including the business
+    COVID-19 Response Plan, the occupational health and safety risk assessment
+    and the safety statement. Include <strong>how to deal with a suspected case
+    of COVID-19</strong> in the safety plans and appoint a dedicated manager in
+    charge of dealing with suspected cases.</li>
+  <li>Develop, consult on, communicate and implement workplace changes or
+    policies.</li>
+  <li>Provide <strong>COVID-19 induction training</strong> for all staff.</li>
+  <li>Put in place <strong>temperature testing</strong> in line with public
+    health advice.</li>
+</ul>
+
+<p>Any <strong>mass COVID-19 testing</strong> needed in line with public health
+advice, must be on <strong>a voluntary basis</strong>. Employers must put an
+agreed process in place for staff who do not want to take part in the testing-
+see 'Antigen testing in the workplace' below.</p>
+
+<h3>Pre-return to work form</h3>
+
+<p>An employer must send out a pre-return to work form to employees before
+their return to work.</p>
+<ul>
+  <li>The employee must submit the form before they return to work.</li>
+  <li>The form will ask employees to confirm they have not had <a href="https://www2.hse.ie/conditions/coronavirus/symptoms.html">symptoms of
+    COVID-19</a> in the past 14 days, have not been diagnosed or suspected of
+    COVID-19 in the past 14 days, have not been in close contact with someone
+    confirmed or suspected of COVID-19 in the past 14 days and are not <a href="../../health/covid19/covid19_isolation_and_restricting.en.html">restricting
+    their movements or self-isolating</a>.</li>
+  <li>You can get a <a href="https://www.hsa.ie/eng/topics/covid-19_coronavirus_information_and_resources/covid-19_business_supports/business_supports/work_safely_templates_checklists_and_posters/">return
+    to work form template</a> from the HSA website. </li>
+</ul>
+
+<p>Completed forms should only be kept for as long as necessary by the employer
+and in line with the advice from the <a href="https://enterprise.gov.ie/en/Publications/Data-Protection-Work-Safely-Protocol.html">Data
+Protection Commission</a>.</p>
+
+<h3>Antigen testing in the workplace </h3>
+
+<p>Rapid Antigen Diagnostic Tests (RADTs) can detect the presence or absence of
+specific antigens or proteins on the surface of the virus.</p>
+
+<p>Your employer can, with your agreement, implement additional checks by
+setting up a RADT testing regime.</p>
+
+<p>Your employer must:</p>
+<ul>
+  <li>Discuss and agree the implementation of a testing regime with you, the
+    lead workers representative, the safety representative and the union (if
+    there is one)</li>
+  <li>Agree a process for workers who do not want to take part in the RADT
+    testing</li>
+  <li>Update the COVID-19 Response plan and any other policies and procedure to
+    take account of the agreed testing policy</li>
+  <li>Provide training for all staff who are engaged in the RADT testing, so
+    you can undertake the test safely and correctly</li>
+  <li>Agree clear protocols for managing positive cases</li>
+</ul>
+
+<p>Any employer who is setting up an RADT testing regime, should consult the
+detailed guidance in <a href="https://enterprise.gov.ie/en/Publications/Publication-files/Work-Safely-Protocol.pdf">section
+D13 of the Work Safely Protocol (pdf)</a>. </p>
+
+<p>Employers must make sure that public health advice regarding hand washing,
+mask wearing, respiratory etiquette, physical distancing and ventilation are
+still fully adhered to in the workplace.</p>
+
+<p>You can get more information on RADTs in <a href="https://enterprise.gov.ie/en/Publications/Publication-files/Work-Safely-Protocol.pdf">Appendix
+F of the protocol (pdf)</a>, on the <a href="https://www.hpra.ie/homepage/medical-devices/covid-19-updates/in-vitro-diagnostic-(ivd)-tests-for-covid-19">Health
+Products Regulatory Authority website</a> and <a href="https://www.hsa.ie/eng/topics/covid-19_coronavirus_information_and_resources/covid-19_business_supports/business_supports/work_safely_templates_checklists_and_posters/employers-checklist-no-10---radts--12-aug-2021.pdf">Checklist
+No. 10 on RADTs (pdf)</a>.</p>
+
+<p>If an employee is has symptoms of COVID-19, they should phone their GP or <a href="https://www2.hse.ie/conditions/covid19/testing/get-tested/">book a PCR
+test on the HSE website</a> as soon as possible.</p>
+
+<h3>Vaccinations</h3>
+
+<p>The decision to get a vaccination against COVID-19 <strong>is
+voluntary</strong>. Therefore you can make your own decision about whether or
+not to get a vaccination.</p>
+
+<p>Your employer may provide you with advice and information on the vaccination
+programme so that you have the necessary information to make an informed
+decision.</p>
+
+<p><strong>Telling your employer your vaccination status</strong></p>
+
+<p>In most cases, you do not have to tell your employer whether or not you are
+vaccinated. Guidance from the Data Protection Commission states that, in
+general, there is no legal basis to collect or process an employee's
+vaccination data.</p>
+
+<h4>Workplace exposure to COVID-19</h4>
+
+<p>In some workplaces, exposure to COVID-19 may be a health risk to workers,
+for example workers in laboratory settings. In this case, an employer must
+complete a risk assessment and implement suitable control measures. Your
+employer can offer you a vaccination but you do not have to accept the
+offer.</p>
+
+<p>If you decide not to accept the offer of a vaccination, your employer must
+review their risk assessment and decide whether you can carry out your work
+without vaccination, and what other protective measures are needed. In some
+cases, your employer may have no option but to redeploy you to another task or
+role. Your employer must agree this with a medical practitioner and you must be
+consulted.</p>
+
+<p>You can get more detailed guidance on vaccinations in <a href="https://enterprise.gov.ie/en/Publications/Publication-files/Work-Safely-Protocol.pdf">section
+D14 of the Work Safely Protocol (pdf)</a>.</p>
+</div>
+
+<div class="topic base_rates">
+<h2 class="topic base_rates_title" id="l01e6d">Getting to and from work</h2>
+
+<p>You should follow public health advice and keep to physical distancing
+guidelines if using your personal car for work. Where sharing a car with a
+co-worker, a face covering should be worn. Your employer should give you hand
+sanitisers and cleaning equipment for your work vehicle.</p>
+
+<p>You should keep windows in your work vehicle open, or partially open.
+Vehicle heating and ventilation systems should not be set to recirculate air.
+</p>
+
+<p>Walk or cycle where possible.</p>
+
+<p>If you are using public transport, you must <a href="https://www.citizensinformation.ie/en/health/covid19/face_coverings_during_covid19.html">wear
+a face covering</a>.</p>
+</div>
+
+<div class="topic base_howtoapply">
+<h2 class="topic base_howtoapply_title" id="l3b81c">Staying safe at work</h2>
+
+<p>Employers and employees should work together to help reduce the spread of
+COVID-19 and know the symptoms of COVID-19. The complete <a href="https://www2.hse.ie/conditions/coronavirus/symptoms.html">list of
+COVID-19 symptoms</a> is available on the HSE Website.</p>
+
+<h3>Employer's responsibilities </h3>
+
+<p>Your employer must:</p>
+<ul>
+  <li>Have appropriate <strong>hygiene facilities</strong> readily available,
+    display posters of <a href="https://www2.hse.ie/wellbeing/how-to-wash-your-hands.html">good hand
+    washing practices</a> and have adequate ventilation for example open doors
+    and windows.</li>
+  <li>Give tissues as well as bins or bags for employee's disposal. </li>
+  <li>Empty bins regularly and provide advice on <strong>good respiratory
+    practice</strong>, including the safe use, storage and disposal of face
+    masks<strong>.</strong><strong></strong></li>
+  <li>Provide for <strong>physical distancing</strong> across all work
+    activities of at least 2 metres as much as possible. (Staggering breaks, or
+    place teams in pods, put in place arrangements for meetings and canteen
+    facilities, put in place a no handshaking policy, no sharing of cups or
+    pens, adapt sign in or sign out systems). Install physical barriers, such
+    as clear plastic sneeze guards between workers were 2 metre distancing is
+    not possible. </li>
+  <li><strong>Keep a log of contacts</strong> to help with contact tracing.</li>
+  <li><strong>Have regular cleaning</strong> of the workplace and provide hand
+    sanitisers. An alcohol based sanitiser must have a minimum of 60% alcohol.
+    See the <a href="https://enterprise.gov.ie/en/Publications/Publication-files/Work-Safely-Protocol.pdf">Work
+    Safely Protocol (pdf)</a> for more details on cleaning and advice on
+    choosing a hand sanitiser. </li>
+  <li>Provide <strong>Personal Protective Equipment (PPE)</strong> and
+    protective clothing where there is an identified COVID-19 exposure risk and
+    in line with public health advice. You <a href="https://www.hsa.ie/eng/Topics/Personal_Protective_Equipment_-_PPE/">can
+    get more information on PPE from the HSA.</a></li>
+  <li>Make sure employees look after their <strong>mental health and
+    well-being</strong> and are aware of any employee assistance programmes.
+  </li>
+</ul>
+
+<h3>If an employee has symptoms of COVID-19</h3>
+
+<p>If an employee has symptoms of the virus during work hours, your employer
+must have a designated isolation area for employees and must follow a specific
+procedure:</p>
+<ul>
+  <li>The designated manager must direct the person to a designated isolation
+    area, along a designated route (make provisions for one or more persons
+    displaying symptoms such as an additional isolation area or have
+    contingency plans in place) </li>
+  <li>Maintain a 2 metre distance</li>
+  <li>Provide a face mask for the person presenting with symptoms. The worker
+    should wear the mask if in a common area with other people or while exiting
+    the premises</li>
+  <li>Arrange for the employee to stay in isolation before arranging for them
+    to be transported home, or to a medical facility, public transport should
+    not be used.</li>
+  <li>Arrange for appropriate cleaning of the isolation area and work areas</li>
+  <li>Carry out a full risk assessment of the incident to see what, if any,
+    further action needs to be taken</li>
+</ul>
+
+<h3>Employee's responsibilities</h3>
+
+<p>As an employee, you should:</p>
+<ul>
+  <li><strong>Follow the public health advice and guidance</strong></li>
+  <li><strong>Work together with your employer</strong> and follow any specific
+    procedures and instructions from your employer to keep safe</li>
+  <li><strong>Undergo any voluntary mass COVID-19 testing</strong> (if you
+    agree to this) needed in line with public health advice – see 'Antigen
+    testing in the workplace' above</li>
+  <li>Adopt <strong>good hygiene practices</strong>, such as frequent hand
+    washing, respiratory etiquette and physical distancing</li>
+  <li>Get professional healthcare advice if you are unwell</li>
+  <li>Not go to work if you have any symptoms of COVID-19, and get a test as
+    soon as possible</li>
+  <li>Let your employer know if you believe there are reasons why it is not
+    safe for you to be at work, or if you are concerned that you could be
+    putting a member of your household at risk</li>
+  <li>Undertake a medical risk assessment with an Occupational Health
+    practitioner or your GP before returning to work, if you are in the very
+    high risk (extremely vulnerable) category</li>
+  <li>Wear a face covering in specific areas of the office, where physical
+    distancing is difficult</li>
+  <li>If identified as a close contact of a confirmed case of COVID-19, <a href="https://www2.hse.ie/conditions/covid19/contact-tracing/close-contact/">follow
+    the close contact advice on the HSE website</a></li>
+</ul>
+</div>
+
+<div class="topic base_howtoapply">
+<h2 class="topic base_howtoapply_title" id="l9eb00">Where can I make a complaint?</h2>
+The Health and Safety Authority is responsible for making sure businesses
+comply with the Work Safely Protocol. If you feel your employer is not meeting
+the standards in this protocol you can raise their concerns with the HSA. The
+HSA will address the concerns with your employer. 
+
+<p>You can make a complaint using the HSA's <a href="https://www.hsa.ie/eng/publications_and_forms/online_complaint_form/online_complaint_form.html">online
+complaint form</a>. You should raise your concern with your employer first to
+give them a chance to fix the issue. </p>
+</div>
+
+<div class="topic base_wheretoapply">
+<h2 class="topic base_wheretoapply_title" id="l23f7d">Further information</h2>
+
+<p>Everyone should stay safe and make themselves aware of the advice in the <a href="https://enterprise.gov.ie/en/Publications/Publication-files/Work-Safely-Protocol.pdf">work
+safely protocol (pdf)</a> and the <a href="https://enterprise.gov.ie/en/Publications/Publication-files/Returning-Safely-to-the-Workplace.pdf">Guidance
+Note on Returning Safely to the Workplace from 20 September (pdf)</a>.</p>
+
+<p>Employers can get <a href="https://www.hsa.ie/eng/topics/covid-19_coronavirus_information_and_resources/covid-19_business_supports/business_supports/work_safely_templates_checklists_and_posters/" name="return" id="return">return to work COVID-19 templates and checklists</a>
+from the HSA and <a href="https://www.hse.ie/eng/services/news/newsfeatures/covid19-updates/partner-resources/">COVID-19
+posters and signs</a> from the HSE. The HSA also have <a href="https://www.hsa.ie/eng/topics/covid-19_coronavirus_information_and_resources/covid-19_business_supports/business_supports/work_safely_online_courses/">return
+to work safely online courses</a>. </p>
+
+<p>The <a href="https://www.skillnetireland.ie/rebound/">Skillnet Ireland
+ReBound</a> initiative gives small businesses online training and mentoring on
+implementing the return to work safely protocol.</p>
+
+<p>Employers can get information on the <a href="../types_of_employment/self_employment/supports_for_businesses_covid19.en.html">financial
+supports</a> and business advice available to help with their cash flow,
+payroll and long-term investments. </p>
+
+<p>The National Standards Authority of Ireland (NSAI) has <a href="https://www.nsai.ie/covid-19/">COVID-19 Business Continuity Guides and
+technical resources</a>.</p>
+
+<p></p>
+</div>
+
+<div class="sharedaddress">
+    <h3>Health and Safety Authority</h3>
+
+    
+
+    
+    <p>The Metropolitan Building<br>James Joyce Street<br>Dublin 1<br>D01 K0Y8</p>
+    
+
+    
+    <div><b>Opening Hours:</b> Lines are open on Monday to Fridays 9am - 3pm</div>
+    
+
+    
+    <div><b>Tel:</b> (01) 614 7000</div>
+    
+
+    
+    <div><b>Locall:</b> 1890 28 93 89</div>
+    
+
+    
+    <div><b>Fax:</b> (01) 614 7020</div>
+    
+
+    
+    <div><b>Homepage:</b> <a href="https://www.hsa.ie">https://www.hsa.ie</a></div>
+    
+
+    
+
+    
+    <div><b>Contact Form:</b> <a href="https://www.hsa.ie/eng/Contact_Us/">https://www.hsa.ie/eng/Contact_Us/</a></div>
+    
+
+    
+    <div><b>Email:</b> <a href="mailto:wcu@hsa.ie">wcu@hsa.ie</a></div>
+    
+
+</div>
+
+</div>
+
+
+    
+    <style>
+        #lastupdated {
+            margin-top: 20px;
+        }
+    </style>
+    <div id="lastupdated">
+        <em>
+            <b>Page edited:</b>
+            22 October 2021
+        </em>
+    </div>
+
+
+    <div role="region" aria-label="Sharing buttons for social media">
+
+    
+
+
+</div>
+
+
+
+
+                <!-- New cookie code -->
+                
+                
+                <!-- New cookie code -->
+
+                
+                
+
+
+                <div class="clear"></div>
+
+            </div>]]></template>
+    </sp_widget>
+</record_update>

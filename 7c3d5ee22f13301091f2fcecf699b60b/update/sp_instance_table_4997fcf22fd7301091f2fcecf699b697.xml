@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field>active</display_field>
+        <field_list>short_description,number,caller_id,state</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>active</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">3c97fcf22fd7301091f2fcecf699b694</sp_column>
+        <sp_page display_value="standard_ticket">c729488287310010e0ef0cf888cb0ba8</sp_page>
+        <sp_widget display_value="Data Table from URL Definition">8ae61f55cb21020000f8d856634c9c93</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-23 06:02:05</sys_created_on>
+        <sys_id>4997fcf22fd7301091f2fcecf699b697</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_update_name>sp_instance_table_4997fcf22fd7301091f2fcecf699b697</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-23 06:04:03</sys_updated_on>
+        <table>incident</table>
+        <title>List</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"use_instance_title": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"enable_filter": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=4997fcf22fd7301091f2fcecf699b697"/>
+</record_update>

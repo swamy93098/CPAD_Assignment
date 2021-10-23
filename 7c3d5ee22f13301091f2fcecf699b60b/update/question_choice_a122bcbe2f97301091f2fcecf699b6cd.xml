@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Frequency">7bf1b0fe2f97301091f2fcecf699b6f4</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-23 05:38:44</sys_created_on>
+        <sys_id>a122bcbe2f97301091f2fcecf699b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Daily</sys_name>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_update_name>question_choice_a122bcbe2f97301091f2fcecf699b6cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-23 05:38:44</sys_updated_on>
+        <text>Daily</text>
+        <value>daily</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=a122bcbe2f97301091f2fcecf699b6cd"/>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ticket_tab_configuration">
+    <ticket_tab_configuration action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <parent display_value="x_94093_return_to_return_to_office_request">830638b22fd7301091f2fcecf699b6f1</parent>
+        <sys_class_name>ticket_tab_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-23 05:57:33</sys_created_on>
+        <sys_id>1686f8722fd7301091f2fcecf699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Return to Workplace" source="x_94093_return_to">7c3d5ee22f13301091f2fcecf699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Return to Workplace">7c3d5ee22f13301091f2fcecf699b60b</sys_scope>
+        <sys_update_name>ticket_tab_configuration_1686f8722fd7301091f2fcecf699b6c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-23 05:57:33</sys_updated_on>
+        <tab_name>Activity</tab_name>
+        <table>x_94093_return_to_return_to_office_request</table>
+        <type>activity</type>
+        <visible/>
+        <widget/>
+        <widget_param/>
+    </ticket_tab_configuration>
+    <sys_translated_text action="delete_multiple" query="documentkey=1686f8722fd7301091f2fcecf699b6c0"/>
+</record_update>
